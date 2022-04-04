@@ -1,100 +1,121 @@
 body {
-    /* background: rgb(34,193,195);
-    background: linear-gradient(177deg, rgba(34,193,195,1) 27%, rgba(253,240,45,1) 89%); */
-
-    background-image: url(bg.png);
-    background-size: cover;
-    overflow: hidden;
-    
+  background-image: url(bg.png);
+  background-size: cover;
+  overflow: hidden;
 }
 
 
 
 .time {
-    display: inline;
-    font-size: 4em;
-    color: white;
-    
-    
+  display: inline;
+  font-size: 4em;
+  color: white;
+  
+  
 }
 
 .timer_wrapper {
-    
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100px;
+  
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100px;
+padding-bottom: 10%;
 }
 
 .plane {
-    display: block;
-    max-width: 10%;
-    position: absolute;
-    transform: translate(-100%, 50%);
-    padding: 10px;
-    height: auto;
-    
-    
+  display: block;
+  max-width: 10%;
+  position: absolute;
+  transform: translate(-100%, 50%);
+  padding: 10px;
+  height: auto;
   
+  
+
 }
 
 
 .sentence {
 
-  font-size: x-large;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding-top: 100px;
+font-size: x-large;
+display: flex;
+justify-content: center;
+align-items: center;
+padding-top: 100px;
 
 
 }
 
 .responsive {
-  width: 100%;
-  height: auto;
+width: 100%;
+height: auto;
 }
+
 
 @media (max-width:769px) {
-  .plane {
+.plane {
 
-    display: block;
-    max-width: 20%;
-    position: absolute;
-    transform: translate(-100%, 50%);
-    padding: 10px;
-    height: auto;
+  display: block;
+  max-width: 15%;
+  position: absolute;
+  transform: translate(-100%, 50%);
+  padding: 10px;
+  height: auto;
 
-  }
-
-.planeDiv {
-  position: relative;
-  overflow-y: hidden;
-  overflow-x: hidden;
-  height: 300px;
 }
 
-  .time {
-    display: inline;
-    font-size: em;
-    color: white;
-    
-    
+.planeDiv {
+position: relative;
+overflow-y: hidden;
+overflow-x: hidden;
+height: 300px;
+}
+
+.time {
+  display: inline;
+  font-size: em;
+  color: white;
+  
+  
+}
+
+.timer_wrapper {
+  padding-bottom: 30%;
+  
 }
 
 .sentence {
 
-  font-size: x-large;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding-top: 40%;
-
+font-size: x-large;
+display: flex;
+justify-content: center;
+align-items: center;
+padding-top: 50%;
 
 }
+
 body {
-  margin: 0;
-  
+margin: 0;
+
 }
+
+}
+
+
+@media (max-height: 414px) {
+
+
+  .plane {
+
+    display: block;
+    max-width: 5%;
+    position: absolute;
+    transform: translate(-100%, -500%);
+    padding: 10px;
+    height: auto;
+  
+  }
+
 
 }

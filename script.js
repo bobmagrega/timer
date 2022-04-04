@@ -1,5 +1,6 @@
 'use strict';
 
+
 const deadline = '2022-04-16';
 
 function getTimeRemaining(endtime) {
@@ -63,6 +64,8 @@ else {
 
 setClock(".timer_wrapper", deadline);
 
+
+
 function movePlane () {
 
     const element = document.querySelector('.plane');
@@ -73,7 +76,7 @@ function movePlane () {
 
     function moveAnimation() {
 
-        if (pos == window.screen.width + 300) {
+        if (pos == window.screen.width + 500) {
             clearInterval(interval);
             setTimeout(movePlane, 5000);
            
