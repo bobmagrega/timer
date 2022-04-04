@@ -65,9 +65,6 @@ body {
     padding: 10px;
     height: auto;
 
-
-
-
   }
 
 .planeDiv {
@@ -79,7 +76,7 @@ body {
 
   .time {
     display: inline;
-    font-size: 4em;
+    font-size: em;
     color: white;
     
     
@@ -91,7 +88,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-top: 300px;
+  padding-top: 40%;
 
 
 }
