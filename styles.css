@@ -78,8 +78,11 @@ body {
     display: inline;
     font-size: em;
     color: white;
+      
+}
     
-    
+.timer_wrapper {
+    padding-bottom: 10%;
 }
 
 .sentence {
