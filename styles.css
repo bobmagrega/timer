@@ -45,7 +45,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-top: 300px;
+  padding-top: 100px;
 
 
 }
@@ -55,7 +55,7 @@ body {
   height: auto;
 }
 
-@media (max-width:480px) {
+@media (max-width:769px) {
   .plane {
 
     display: block;
