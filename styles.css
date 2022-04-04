@@ -1,0 +1,103 @@
+body {
+    /* background: rgb(34,193,195);
+    background: linear-gradient(177deg, rgba(34,193,195,1) 27%, rgba(253,240,45,1) 89%); */
+
+    background-image: url(bg.png);
+    background-size: cover;
+    overflow: hidden;
+    
+}
+
+
+
+.time {
+    display: inline;
+    font-size: 4em;
+    color: white;
+    
+    
+}
+
+.timer_wrapper {
+    
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+}
+
+.plane {
+    display: block;
+    max-width: 10%;
+    position: absolute;
+    transform: translate(-100%, 50%);
+    padding: 10px;
+    height: auto;
+    
+    
+  
+}
+
+
+.sentence {
+
+  font-size: x-large;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 300px;
+
+
+}
+
+.responsive {
+  width: 100%;
+  height: auto;
+}
+
+@media (max-width:480px) {
+  .plane {
+
+    display: block;
+    max-width: 20%;
+    position: absolute;
+    transform: translate(-100%, 50%);
+    padding: 10px;
+    height: auto;
+
+
+
+
+  }
+
+.planeDiv {
+  position: relative;
+  overflow-y: hidden;
+  overflow-x: hidden;
+  height: 300px;
+}
+
+  .time {
+    display: inline;
+    font-size: 4em;
+    color: white;
+    
+    
+}
+
+.sentence {
+
+  font-size: x-large;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 300px;
+
+
+}
+body {
+  margin: 0;
+  
+}
+
+}
